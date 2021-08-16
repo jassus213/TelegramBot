@@ -14,8 +14,7 @@ namespace Tgbot
 
     class Program
     {
-        private static string token { get; set; } = "1907057561:AAHSbsSiOdDeOL_n1FkdjMyPxCc3h0pGyNw";
-        private static string tokenDiscord { get; set; } = "ODc1ODE4MDMxNDUwODI0NzA0.YRbDGg.A16DtRMhBTn3B14jZapXJQP4Aek";
+        
 
         static void Main(string[] args)
         {
