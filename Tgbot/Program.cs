@@ -14,7 +14,7 @@ namespace Tgbot
 
     class Program
     {
-        
+
 
         static void Main(string[] args)
         {
@@ -32,8 +32,8 @@ namespace Tgbot
             var convertFromEur = new ConverterFromEur();
             var convertFromDollar = new ConverterFromDollar();
             var music = new Music();
-
             var subs = new SubcribersCommand();
+            var finderpoisk = new FinderCommand();
 
             commandList.Add(subs);
             commandList.Add(converterEur);
@@ -41,6 +41,7 @@ namespace Tgbot
             commandList.Add(convertFromEur);
             commandList.Add(convertFromDollar);
             commandList.Add(music);
+            commandList.Add(finderpoisk);
 
 
 
